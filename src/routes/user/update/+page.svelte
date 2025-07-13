@@ -67,7 +67,6 @@
                 return;
             }
 
-            // Upload da imagem, se houver
             if (user.image) {
                 const uploadedPath = await uploadImage(user.image);
                 user.imagePath = uploadedPath;
